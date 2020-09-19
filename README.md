@@ -5,7 +5,7 @@ General: https://medium.com/sysf/bash-scripting-everything-you-need-to-know-abou
 
 grep(match line in file): https://www.geeksforgeeks.org/grep-command-in-unixlinux/ 
 
-https://www.cyberciti.biz/faq/grep-regular-expressions/
+grep regular expressions: https://www.cyberciti.biz/faq/grep-regular-expressions/
 
 Redirection: https://thoughtbot.com/blog/input-output-redirection-in-the-shell
 
