@@ -1,0 +1,136 @@
+#!/bin/bash
+This tells the computer which type of interpreter to use for the script. 
+
+The script files also need to have the “execute” permission to allow them to be run. To add this permission to a file with filename: script.sh use:
+chmod +x script.sh
+
+To ensure that scripts in ~/bin/ are available, you must add this directory to your PATH within your configuration file:
+PATH=~/bin:$PATH
+
+1. Variables:
+
+script.sh
+#!/bin/bash
+phrase="Hello to you!"   (!there should be no space between '=')
+echo $phrase                 (to access  the value of a variable we use $ sign)
+
+bash
+./script.sh
+
+2.  Conditionals:
+Use if to start the conditional, followed by the condition in square brackets ([ ]). then begins the code that will run if the condition is met. else begins the code that will run if the condition is not met. Lastly, the conditional is closed with a backwards if, fi.
+ -lt is “less than”
+
+if [ $index -lt 5 ]   (if $index is less than 5)
+then
+  echo $index
+else
+  echo 5
+fi
+
+The list of comparison operators:
+Equal: -eq
+Not equal: -ne
+Less than or equal: -le
+Less than: -lt
+Greater than or equal: -ge
+Greater than: -gt
+Is null: -z
+
+#!/bin/bash
+first_greeting="Nice to meet you!"
+later_greeting="How are you?"
+greeting_occasion=10
+if [ $greeting_occasion -lt 11 ]
+then
+  echo $first_greeting
+else
+  echo $later_greeting
+fi
+
+$ ./script.sh
+How are you?
+$ ./script.sh
+Nice to meet you!
+
+3. Loops
+
+for word in $paragraph
+do
+  echo $word
+done
+
+4. While
+
+while [ $index -lt 5 ]
+do
+  echo $index
+  index=$((index + 1))
+
+5. Until
+until [ $index -eq 5 ]
+do
+  echo $index
+  index=$((index + 1))
+done
+done
+
+#!/bin/bash
+first_greeting="Nice to meet you!"
+later_greeting="How are you?"
+greeting_occasion=0
+while [ $greeting_occasion -lt 3 ]
+do
+  if [ $greeting_occasion -lt 1 ]
+  then
+    echo $first_greeting
+  else
+    echo $later_greeting
+  fi
+  greeting_occasion=$((greeting_occasion + 1))
+done
+ 
+6. Inputs - Prompt user
+
+6.1 
+echo "Guess a number"
+read number
+echo "You guessed $number"
+
+6.2 
+saycolors red green blue
+
+Within the script, these are accessed using $1, $2, etc, where $1 is the first argument (here, “red”) and so on. Note that these are 1 indexed.
+These arguments are entered after the script name and are separated by spaces.
+
+6.3 
+for color in "$@"
+do
+  echo $color
+done
+
+Your script needs to accept an indefinite number of input arguments, you can iterate over them using the "$@" syntax. 
+
+6.4
+files=/some/directory/*
+for file in $files
+do
+  echo $file
+done
+
+You can assign a set of files to a variable name using standard bash pattern matching using regular expressions. For example, to get all files in a directory, you can use the * character. You can then iterate through each file and do something. Here, lets just print the full path and filename.
+
+6.5 Aliases
+You can set up aliases for your bash scripts within your .bashrc or .bash_profile file to allow calling your scripts without the full filename. For example, if we have our saycolors.sh script, we can alias it to the word saycolors using the following syntax:
+
+alias saycolors='./saycolors.sh'
+
+You can even add standard input arguments to your alias. For example, if we always want “green” to be included as the first input to saycolors, we could modify our alias to:
+
+alias saycolors='./saycolors.sh "green"'
+
+$ alias greet3="./script.sh 3"
+$ greet3
+Nice to meet you!
+How are you?
+How are you?

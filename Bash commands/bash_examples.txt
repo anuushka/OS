@@ -1,0 +1,128 @@
+#!/bin/bash
+first_greeting="Nice to meet you!"
+later_greeting="How are you?"
+greeting_occasion=0
+echo "How many times should I greet?"
+read greeting_limit
+while [ $greeting_occasion -lt $greeting_limit ]
+do
+  if [ $greeting_occasion -lt 1 ]
+  then
+    echo $first_greeting
+  else
+    echo $later_greeting
+  fi
+  greeting_occasion=$((greeting_occasion + 1))
+done
+
+-------------------------------------------------------------------------------------------
+script.sh
+#!/bin/bash
+phrase="Hello to you!"   (!there should be no space between '=')
+echo $phrase                 (to access  the value of a variable we use $ sign)
+
+bash
+./script.sh
+------------------------------------------------------------------------------------------
+
+if [ $index -lt 5 ]   (if $index is less than 5)
+then
+  echo $index
+else
+  echo 5
+fi
+
+-------------------------------------------------------------------------------------------
+#!/bin/bash
+first_greeting="Nice to meet you!"
+later_greeting="How are you?"
+greeting_occasion=10
+if [ $greeting_occasion -lt 11 ]
+then
+  echo $first_greeting
+else
+  echo $later_greeting
+fi
+
+$ ./script.sh
+How are you?
+$ ./script.sh
+Nice to meet you!
+
+---------------------------------------------------------------------------------------------
+for word in $paragraph
+do
+  echo $word
+done
+--------------------------------------------------------------------------------------------
+
+while [ $index -lt 5 ]
+do
+  echo $index
+  index=$((index + 1))
+
+--------------------------------------------------------------------------------------------
+until [ $index -eq 5 ]
+do
+  echo $index
+  index=$((index + 1))
+done
+done
+-------------------------------------------------------------------------------------------
+#!/bin/bash
+first_greeting="Nice to meet you!"
+later_greeting="How are you?"
+greeting_occasion=0
+while [ $greeting_occasion -lt 3 ]
+do
+  if [ $greeting_occasion -lt 1 ]
+  then
+    echo $first_greeting
+  else
+    echo $later_greeting
+  fi
+  greeting_occasion=$((greeting_occasion + 1))
+done
+--------------------------------------------------------------------------------------------
+
+files=/some/directory/*
+for file in $files
+do
+  echo $file
+done
+
+--------------------------------------------------------------------------------------------
+
+for color in "$@"
+do
+  echo $color
+done
+
+--------------------------------------------------------------------------------------------
+bash
+
+$ alias greet3="./script.sh 3"
+$ greet3
+Nice to meet you!
+How are you?
+How are you?
+
+-------------------------------------------------------------------------------------------
+Review
+Any command that can be run in the terminal can be run in a bash script.
+Variables are assigned using an equals sign with no space (greeting="hello").
+Variables are accessed using a dollar sign (echo $greeting).
+Conditionals use if, then, else, fi syntax.
+Three types of loops can be used: for, while, and until.
+Bash scripts use a unique set of comparison operators:
+Equal: -eq
+Not equal: -ne
+Less than or equal: -le
+Less than: -lt
+Greater than or equal: -ge
+Greater than: -gt
+Is null: -z
+Input arguments can be passed to a bash script after the script name, separated by spaces (myScript.sh “hello” “how are you”).
+Input can be requested from the script user with the read keyword.
+Aliases can be created in the .bashrc or .bash_profile using the alias keyword.
+----------------------------------------------------------------------------------------------
