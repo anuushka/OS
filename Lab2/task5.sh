@@ -10,8 +10,8 @@ do
   new_avgruntime=$(echo $line | grep -Ehsio "Average_Running_Time=[0-9]+" | grep -o "[0-9]\+")
     if (( ppid != -1 && new_ppid != ppid ))
     then
-    CALC=$(echo "scale=2; $avgruntime / $counter" | bc -l)
-    echo Average_Sleeping_Children_of_ParentID=$ppid is $CALC
+    avg=$(echo "scale=2; $avgruntime / $counter" | bc -l)
+    echo Average_Sleeping_Children_of_ParentID=$ppid is $avg
     avgruntime=0
     counter=0
     fi
