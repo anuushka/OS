@@ -1,4 +1,4 @@
 #!/bin/bash
 #Отсортировать список процессов из ps -aux. Вывести те, которые: Больше четырех цифр, иначе сообщение об ошибке
 
-ps aux --sort -pid | awk '{if ($2 >= 4) {print $2} else if ($2 < 4) {print "ERROR"}}'
+ps aux --sort -pid | awk '{if ($2 >= 4) {print $2} else if ($2 < 4) {print "ERROR" }}'
