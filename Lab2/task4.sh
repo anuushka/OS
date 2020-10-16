@@ -8,7 +8,7 @@ nr_switch=$(grep -Ehsi "nr_switches" /proc/$pid/sched | grep -o "[0-9]\+")
 if [[ -n $ParentID ]]
 then
 ART=$((sumexec / nr_switch))
-echo $pid ":" $ParentID ":" $ART
+echo "ProcessID=$pid : Parent_ProcessID=$ParentID : Average_Running-Time=$ART"
 fi
 done |
 sort --key=2 -V > task4.out
