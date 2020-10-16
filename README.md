@@ -13,12 +13,12 @@ Case: https://linuxize.com/post/bash-case-statement/
 
 Lab 2
 
-https://superuser.com/questions/102005/how-can-i-display-the-memory-usage-of-each-process-if-i-do-a-ps-ef
+Each Memory usage of each process: https://superuser.com/questions/102005/how-can-i-display-the-memory-usage-of-each-process-if-i-do-a-ps-ef
 
-https://man7.org/linux/man-pages/man5/proc.5.html
+Proc Manual: https://man7.org/linux/man-pages/man5/proc.5.html
 
-https://www.linuxcommands.site/linux-monitor-commands/top-sort-by-cpu-by-memory-in-linux/
+TOP command: https://www.linuxcommands.site/linux-monitor-commands/top-sort-by-cpu-by-memory-in-linux/
 
-https://www.tecmint.com/find-processes-by-memory-usage-top-batch-mode/
+TOP command: https://www.tecmint.com/find-processes-by-memory-usage-top-batch-mode/
 
-https://unix.stackexchange.com/questions/52762/trying-to-sort-on-two-fields-second-then-first
+Sort a field with mixed data types: https://unix.stackexchange.com/questions/52762/trying-to-sort-on-two-fields-second-then-first
