@@ -10,3 +10,8 @@ grep regular expressions: https://www.cyberciti.biz/faq/grep-regular-expressions
 Redirection: https://thoughtbot.com/blog/input-output-redirection-in-the-shell
 
 Case: https://linuxize.com/post/bash-case-statement/
+
+Lab 2
+
+https://superuser.com/questions/102005/how-can-i-display-the-memory-usage-of-each-process-if-i-do-a-ps-ef
+https://man7.org/linux/man-pages/man5/proc.5.html
