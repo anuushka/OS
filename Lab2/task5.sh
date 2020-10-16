@@ -16,7 +16,7 @@ do
     counter=0
     fi
   echo $line
-  avgruntime=$(echo "$avgruntime + $new_avgruntime | bc -l)
+  avgruntime=$(echo "$avgruntime + $new_avgruntime" | bc -l)
   counter=$((counter + 1))
   ppid=$new_ppid
 done < task4.out > task5.out
