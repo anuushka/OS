@@ -2,4 +2,4 @@
 ps -eo pid,etimes | awk '{if ($2 <= 60) print $1 " : " $2}'
 
 #Вывести список pid всех спящих процессов. 
-ps h -eo s,pid | awk '{ if ($1 == "S" || $1 == "D") { print $2 } }'
+ps h -eo s,pid,etimes | awk '{ if (($1 == "S" || $1 == "D") && $3 <= 60) { print $1 ":" $2 } }'
