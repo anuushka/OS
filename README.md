@@ -13,6 +13,8 @@ Case: https://linuxize.com/post/bash-case-statement/
 
 Lab 2
 
+Holy Grail : https://man7.org/linux/man-pages/man5/proc.5.html
+
 Each Memory usage of each process: https://superuser.com/questions/102005/how-can-i-display-the-memory-usage-of-each-process-if-i-do-a-ps-ef
 
 Proc Manual: https://man7.org/linux/man-pages/man5/proc.5.html
