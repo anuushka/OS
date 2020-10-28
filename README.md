@@ -24,3 +24,11 @@ TOP command: https://www.linuxcommands.site/linux-monitor-commands/top-sort-by-c
 TOP command: https://www.tecmint.com/find-processes-by-memory-usage-top-batch-mode/
 
 Sort a field with mixed data types: https://unix.stackexchange.com/questions/52762/trying-to-sort-on-two-fields-second-then-first
+
+Lab 3
+
+AND – OR operator (&& – ||): https://www.tecmint.com/chaining-operators-in-linux-with-practical-examples/#:~:text=The%20AND%20Operator%20(%26%26)%20would,execution%20status%20of%20last%20command.
+
+Run script in background: https://www.thegeekstuff.com/2010/12/5-ways-to-execute-linux-command/
+
+after x minutes: https://stackoverflow.com/questions/34746267/is-it-possible-to-set-a-cron-job-or-bash-script-to-run-x-minutes-from-now
