@@ -45,4 +45,6 @@ trap: https://www.linuxjournal.com/content/bash-trap-command
 
 TRAP: https://medium.com/swlh/bash-scripts-part-5-signals-and-background-tasks-4dbe5922aea3
 
+kill infinite loop in background: https://stackoverflow.com/questions/39634147/pid-of-infinite-loop-run-in-background-in-bash-script
+
 automatically start: https://medium.com/swlh/bash-scripts-part-5-signals-and-background-tasks-4dbe5922aea3
