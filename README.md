@@ -31,6 +31,8 @@ AND – OR operator (&& – ||): https://www.tecmint.com/chaining-operators-in-l
 
 Run script in background: https://www.thegeekstuff.com/2010/12/5-ways-to-execute-linux-command/
 
+break an infinite loop: https://superuser.com/questions/1182336/ctrlc-to-break-an-infinite-loop-and-then-do-something-outside-the-loop-in-a-bas
+
 after x minutes: https://stackoverflow.com/questions/34746267/is-it-possible-to-set-a-cron-job-or-bash-script-to-run-x-minutes-from-now
 
 crontab : https://linuxize.com/post/scheduling-cron-jobs-with-crontab/
