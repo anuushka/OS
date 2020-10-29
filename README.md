@@ -34,3 +34,15 @@ Run script in background: https://www.thegeekstuff.com/2010/12/5-ways-to-execute
 after x minutes: https://stackoverflow.com/questions/34746267/is-it-possible-to-set-a-cron-job-or-bash-script-to-run-x-minutes-from-now
 
 crontab : https://linuxize.com/post/scheduling-cron-jobs-with-crontab/
+
+limit cpu: https://www.tecmint.com/limit-cpu-usage-of-a-process-in-linux-with-cpulimit-tool/
+
+kill process: https://www.tecmint.com/how-to-kill-a-process-in-linux/
+
+send signal to kill: https://bash.cyberciti.biz/guide/Sending_signal_to_Processes
+
+trap: https://www.linuxjournal.com/content/bash-trap-command
+
+TRAP: https://medium.com/swlh/bash-scripts-part-5-signals-and-background-tasks-4dbe5922aea3
+
+automatically start: https://medium.com/swlh/bash-scripts-part-5-signals-and-background-tasks-4dbe5922aea3
