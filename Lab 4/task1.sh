@@ -24,5 +24,5 @@ touch $log
 fi
 
 ln $file $dir/$id
-rm $file && echo "$file : $(realpath $file) : $id" >> $log
+rm $file && echo "$file:$(realpath $file):$id" >> $log
 
