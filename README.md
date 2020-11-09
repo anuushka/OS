@@ -1,5 +1,5 @@
 # OS
-Lab 1
+Lab 1 (General Commands)
 
 General: https://medium.com/sysf/bash-scripting-everything-you-need-to-know-about-bash-shell-programming-cd08595f2fba
 
@@ -11,7 +11,7 @@ Redirection: https://thoughtbot.com/blog/input-output-redirection-in-the-shell
 
 Case: https://linuxize.com/post/bash-case-statement/
 
-Lab 2
+Lab 2 (PID Proc Top etc)
 
 Holy Grail : https://man7.org/linux/man-pages/man5/proc.5.html
 
@@ -25,7 +25,7 @@ TOP command: https://www.tecmint.com/find-processes-by-memory-usage-top-batch-mo
 
 Sort a field with mixed data types: https://unix.stackexchange.com/questions/52762/trying-to-sort-on-two-fields-second-then-first
 
-Lab 3
+Lab 3 (Generator, Handler, Crontab, Simultaneous processes)
 
 AND – OR operator (&& – ||): https://www.tecmint.com/chaining-operators-in-linux-with-practical-examples/#:~:text=The%20AND%20Operator%20(%26%26)%20would,execution%20status%20of%20last%20command.
 
@@ -50,3 +50,14 @@ TRAP: https://medium.com/swlh/bash-scripts-part-5-signals-and-background-tasks-4
 kill infinite loop in background: https://stackoverflow.com/questions/39634147/pid-of-infinite-loop-run-in-background-in-bash-script
 
 automatically start: https://medium.com/swlh/bash-scripts-part-5-signals-and-background-tasks-4dbe5922aea3
+
+
+Lab 4 (Soft link Hard Links)
+
+Introduction: https://www.geeksforgeeks.org/soft-hard-links-unixlinux/
+
+Create links: https://www.freecodecamp.org/news/symlink-tutorial-in-linux-how-to-create-and-remove-a-symbolic-link/ 
+https://www.cyberciti.biz/faq/creating-soft-link-or-symbolic-link/ 
+https://www.tecmint.com/create-hard-and-symbolic-links-in-linux/
+
+
