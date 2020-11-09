@@ -1,4 +1,7 @@
 # OS
+I do these manuals while doing labs, so I can refer to them anytime when I forget something. 
+
+
 Lab 1 (General Commands)
 
 General: https://medium.com/sysf/bash-scripting-everything-you-need-to-know-about-bash-shell-programming-cd08595f2fba
@@ -57,7 +60,10 @@ Lab 4 (Soft link Hard Links)
 Introduction: https://www.geeksforgeeks.org/soft-hard-links-unixlinux/
 
 Create links: https://www.freecodecamp.org/news/symlink-tutorial-in-linux-how-to-create-and-remove-a-symbolic-link/ 
+
 https://www.cyberciti.biz/faq/creating-soft-link-or-symbolic-link/ 
+
 https://www.tecmint.com/create-hard-and-symbolic-links-in-linux/
+
 
 
