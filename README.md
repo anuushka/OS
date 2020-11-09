@@ -1,6 +1,7 @@
 # OS
 I do these manuals while doing labs, so I can refer to them anytime when I forget something. 
 
+Learn to learn.
 
 Lab 1 (General Commands)
 
