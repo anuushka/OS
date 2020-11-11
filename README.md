@@ -66,5 +66,6 @@ https://www.cyberciti.biz/faq/creating-soft-link-or-symbolic-link/
 
 https://www.tecmint.com/create-hard-and-symbolic-links-in-linux/
 
+Check file size: https://www.cyberciti.biz/faq/howto-bash-check-file-size-in-linux-unix-scripting/
 
 
