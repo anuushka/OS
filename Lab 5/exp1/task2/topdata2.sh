@@ -1,5 +1,8 @@
 #!/bin/bash
 
+./mem.bash &
+./mem2.bash2 &
+
 rm top2.log
 touch top2.log
 echo "" > top2.log
