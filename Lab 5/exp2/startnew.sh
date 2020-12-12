@@ -1,5 +1,5 @@
 #!/bin/bash
-N="$(cat report3.log | tail -n 1)"
+N="$(cat report.log | tail -n 1)"
 N=$((N/10))
 echo $N
 K=10
