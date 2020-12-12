@@ -69,3 +69,8 @@ https://www.tecmint.com/create-hard-and-symbolic-links-in-linux/
 Check file size: https://www.cyberciti.biz/faq/howto-bash-check-file-size-in-linux-unix-scripting/
 
 
+Lab 5
+
+Monitor memory usage: https://linuxconfig.org/how-to-monitor-ram-usage-on-linux
+
+Parse free -m : https://dzone.com/articles/awk-parsing-%E2%80%98free-m%E2%80%99-output
