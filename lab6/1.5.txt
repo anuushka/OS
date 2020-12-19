@@ -1,0 +1,6 @@
+1.1.bat
+mkdir TEST
+copy . TEST
+cd TEST
+copy /b *.txt newfile.txt
+1.4.bat
